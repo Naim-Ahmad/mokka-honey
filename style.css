@@ -49,7 +49,9 @@ img {
   background-color: aliceblue;
   color: black;
 }
-
+.common-color {
+  color: #eeba1f;
+}
 .sec-p {
   padding: 4rem 0rem;
 }
@@ -72,6 +74,7 @@ Navbar style starts here
 .nav-link {
   color: white;
   font-weight: bolder;
+  padding: 0px 1rem !important;
 }
 
 .nav-link:hover {
@@ -94,7 +97,7 @@ Header style starts here
   background: url('/images/slider3-bg.webp') no-repeat;
   background-position: 27% 50%;
   background-size: cover;
-  height: 50vh;
+  height: 60vh;
   position: relative;
 }
 
@@ -116,6 +119,64 @@ Header style starts here
   color: #eeba1f;
 }
 
+.add-card-btn {
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.card {
+  position: relative;
+  transition: 0.3s;
+}
+
+.card-img {
+  background: rgba(0, 0, 0, 0.6);
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.card-img:hover {
+  opacity: 1;
+}
+
+.card-img:hover.card-img i {
+  opacity: 1;
+  left: 75%;
+}
+.product-item {
+  flex-wrap: wrap;
+}
+.card-img i {
+  background-color: #eeba1f;
+  padding: 1rem;
+  border-radius: 10px;
+  display: block;
+  width: 3.3rem;
+  margin: 5px;
+  color: black;
+  position: relative;
+  left: 100%;
+  opacity: 0;
+  top: 30%;
+}
+
+.card-img i:hover {
+  background-color: aliceblue;
+  color: black !important;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
 /* ============================================
 Responsive Design
 =============================================*/
@@ -123,11 +184,19 @@ Responsive Design
   .icon-left {
     left: 10%;
   }
+  .m-xs {
+    margin-top: 2rem;
+    margin-left: 0 !important;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .icon-left {
     left: 15%;
+  }
+  .m-xs {
+    margin-top: 2rem;
+    margin-left: 0 !important;
   }
 }
 
@@ -170,6 +239,10 @@ Responsive Design
   .header-text {
     width: 80%;
   }
+  .product-item {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -181,4 +254,7 @@ Responsive Design
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  .product-item {
+    width: 100%;
+  }
 }
