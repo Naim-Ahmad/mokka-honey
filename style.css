@@ -1,0 +1,184 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Signika:wght@400;500;600;700&display=swap');
+@import url('https://fonts.maateen.me/siyam-rupali/font.css');
+
+/* ===================================
+common css
+=====================================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: 'Poppins', 'SiyamRupali', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Signika', 'kalpurush', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.my-btn {
+  background-color: #eeba1f;
+  text-decoration: none;
+  color: black;
+  padding: 1rem 2.5rem;
+  border-radius: 35px;
+  transition: 0.5s;
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-family: 'SiyamRupali';
+}
+.my-btn:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.sec-p {
+  padding: 4rem 0rem;
+}
+/* ==============================
+Navbar style starts here
+================================= */
+
+.icon-left {
+  position: relative;
+}
+
+.icon-right {
+  display: none;
+}
+
+.active {
+  color: #eeba1f !important;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bolder;
+}
+
+.nav-link:hover {
+  color: #eeba1f;
+}
+
+i {
+  transition: 0.5s;
+  color: white;
+}
+
+i:hover {
+  color: #eeba1f !important;
+}
+
+/* ==============================
+Header style starts here
+================================= */
+.header {
+  background: url('/images/slider3-bg.webp') no-repeat;
+  background-position: 27% 50%;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+
+.header-text h3 {
+  margin: 2rem 0rem;
+  font-size: 2em;
+}
+
+.header-text {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  color: white;
+  height: 100%;
+  padding: 2rem 1rem 0 1rem;
+  line-height: 2;
+}
+
+.about-text h2 {
+  font-size: 3em;
+  color: #eeba1f;
+}
+
+/* ============================================
+Responsive Design
+=============================================*/
+@media screen and (min-width: 0) and (max-width: 576px) {
+  .icon-left {
+    left: 10%;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .icon-left {
+    left: 15%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .icon-left {
+    display: none;
+  }
+  .icon-right {
+    display: block;
+  }
+  .header {
+    height: 100vh;
+  }
+  .header-text {
+    background: none;
+    color: black;
+    width: 80%;
+    position: absolute;
+    top: 19%;
+    right: 1%;
+    font-size: larger;
+  }
+  .header-text h3 {
+    margin: 2rem 0rem;
+    font-size: 3em;
+  }
+
+  .s-img {
+    width: 25%;
+  }
+
+  .about-text {
+    width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-text {
+    width: 80%;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header-text {
+    width: 60%;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
