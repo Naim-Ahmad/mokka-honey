@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Signika', 'kalpurush', sans-serif;
+  font-family: 'SiyamRupali', 'Signika', 'kalpurush', sans-serif;
 }
 
 img {
@@ -55,6 +55,12 @@ img {
 .sec-p {
   padding: 4rem 0rem;
 }
+
+a {
+  text-decoration: none;
+  font-family: 'SiyamRupali';
+}
+
 /* ==============================
 Navbar style starts here
 ================================= */
@@ -74,6 +80,7 @@ Navbar style starts here
 .nav-link {
   color: white;
   font-weight: bolder;
+  font-size: large;
   padding: 0px 1rem !important;
 }
 
@@ -114,6 +121,10 @@ Header style starts here
   line-height: 2;
 }
 
+/*============================
+About section style starts here
+============================*/
+
 .about-text h2 {
   font-size: 3em;
   color: #eeba1f;
@@ -124,6 +135,15 @@ Header style starts here
   width: 100%;
   text-align: center;
   transition: 0.5s;
+}
+
+/* ===========================
+product section style starts here
+==============================*/
+
+.review-sec {
+  background: linear-gradient(rgba(238, 186, 31, 0.8), rgba(238, 186, 31, 0.8)),
+    url(./images/sundorbon.jpg) no-repeat center/cover;
 }
 
 .card {
@@ -175,6 +195,14 @@ Header style starts here
 }
 .card:hover {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* ==============================
+
+================================*/
+.form input,
+textarea::placeholder {
+  font-family: 'SiyamRupali';
 }
 
 /* ============================================
@@ -239,7 +267,8 @@ Responsive Design
   .header-text {
     width: 80%;
   }
-  .product-item {
+  .product-item,
+  .review {
     width: 80%;
     margin: auto;
   }
@@ -254,7 +283,8 @@ Responsive Design
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-  .product-item {
+  .product-item,
+  .review {
     width: 100%;
   }
 }
