@@ -260,6 +260,10 @@ Responsive Design
   .about-text {
     width: 50%;
   }
+  .m-xs {
+    margin-top: 0px !important;
+    margin-left: 0 !important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
