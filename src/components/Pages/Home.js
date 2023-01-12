@@ -6,6 +6,7 @@ import Header from '../sections/Header';
 import LatestProduct from "../sections/LatestProduct";
 import Nav from '../sections/Nav';
 import ProductSection from "../sections/ProductSection";
+import ReviewSec from '../sections/ReviewSec';
 
 export default function Home(){
     return(
@@ -15,6 +16,7 @@ export default function Home(){
         <AboutSection />
         <ProductSection/>
         <LatestProduct />
+        <ReviewSec />
         <ContactSection />
         <Footer/>
     </>    
