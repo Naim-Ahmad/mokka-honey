@@ -1,0 +1,56 @@
+.iconLeft {
+  position: relative;
+}
+
+.iconRight {
+  display: none;
+}
+
+.active {
+  color: #eeba1f !important;
+}
+
+.navLink {
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  padding: 0px 1rem !important;
+}
+
+.navLink:hover {
+  color: #eeba1f;
+}
+
+@media screen and (min-width: 0) and (max-width: 576px) {
+  .iconLeft {
+    left: 10%;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .iconLeft {
+    left: 15%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .iconLeft {
+    display: none;
+  }
+  .iconRight {
+    display: block;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

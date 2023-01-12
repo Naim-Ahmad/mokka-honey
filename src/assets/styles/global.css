@@ -1,0 +1,177 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Signika:wght@400;500;600;700&display=swap');
+@import url('https://fonts.maateen.me/siyam-rupali/font.css');
+
+/* ===================================
+common css
+=====================================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: 'Poppins', 'SiyamRupali', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'SiyamRupali', 'Signika', 'kalpurush', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.my-btn {
+  background-color: #eeba1f;
+  text-decoration: none;
+  color: black;
+  padding: 8px 2.5rem;
+  border-radius: 35px;
+  transition: 0.5s;
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-family: 'SiyamRupali';
+  border: 2px solid #eeba1f;
+}
+.add-card-btn {
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  transition: 0.5s;
+}
+.my-btn:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.common-color {
+  color: #eeba1f;
+}
+.sec-p {
+  padding: 4rem 0rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'SiyamRupali';
+}
+
+i {
+  transition: 0.5s;
+  color: white;
+}
+
+i:hover {
+  color: #eeba1f !important;
+}
+
+.row.text-left {
+  text-align: center;
+}
+
+/* ============================================
+Responsive Design
+=============================================*/
+@media screen and (min-width: 0) and (max-width: 576px) {
+  .iconLeft {
+    left: 10%;
+  }
+
+  .m-xs {
+    margin-top: 2rem;
+    margin-left: 0 !important;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .iconLeft {
+    left: 15%;
+  }
+  .m-xs {
+    margin-top: 2rem;
+    margin-left: 0 !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .iconLeft {
+    display: none;
+  }
+  .iconRight {
+    display: block;
+  }
+  .header {
+    height: 100vh;
+  }
+  .header-text {
+    background: none;
+    color: black;
+    width: 80%;
+    position: absolute;
+    top: 19%;
+    right: 1%;
+    font-size: larger;
+  }
+  .header-text h3 {
+    margin: 2rem 0rem;
+    font-size: 3em;
+  }
+
+  .s-img {
+    width: 25%;
+  }
+
+  .about-text {
+    width: 50%;
+  }
+  .m-xs {
+    margin-top: 0px !important;
+    margin-left: 0 !important;
+  }
+  .my-card {
+    width: 45%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-text {
+    width: 80%;
+  }
+  .product-item,
+  .review {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header-text {
+    width: 60%;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .product-item,
+  .review {
+    width: 100%;
+  }
+  .my-card {
+    width: 18rem;
+  }
+}

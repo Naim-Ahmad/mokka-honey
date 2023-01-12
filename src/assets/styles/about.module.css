@@ -1,0 +1,23 @@
+/*============================
+About section style starts here
+============================*/
+
+.aboutText h2 {
+  font-size: 3em;
+  color: #eeba1f;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .sImg {
+    width: 25%;
+  }
+
+  .aboutText {
+    width: 50%;
+  }
+  .mXs {
+    margin-top: 0px !important;
+    margin-left: 0 !important;
+  }
+}
