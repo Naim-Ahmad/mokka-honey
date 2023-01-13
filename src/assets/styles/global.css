@@ -33,6 +33,10 @@ img {
   height: auto;
 }
 
+.dropdown-item {
+  background-color: #363a3e !important;
+}
+
 .my-btn {
   background-color: #eeba1f;
   text-decoration: none;

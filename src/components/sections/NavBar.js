@@ -1,13 +1,17 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styles from '../../assets/styles/nav.module.css';
 import NavIcon from "../NavIcon";
 
 export default function Nav(){
+  let active = {
+    color: '#eeba1f',
+  }
     return (
         <>
          <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
           <div className="container">
-            <a className="navbar-brand" href="#"><i className="fa-solid fa-kaaba"></i> মক্কা হানি</a>
+            <NavLink className="navbar-brand" to="/"><i className="fa-solid fa-kaaba"></i> মক্কা হানি</NavLink>
 
             <NavIcon style={styles.iconLeft}/>
 
@@ -29,7 +33,7 @@ export default function Nav(){
             >
               <div className="offcanvas-header">
                 <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
-                  Mocca Honey
+                  মক্কা হানি এন্ড ফুড
                 </h5>
                 <button
                   type="button"
@@ -42,36 +46,37 @@ export default function Nav(){
               <div className="offcanvas-body">
                 <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
                   <li className="nav-item">
-                    <a className={`${styles.navLink} ${styles.active}`}
-                    aria-current="page" href="#home">হোম</a>
+                    <NavLink className={`${styles.navLink}`} style={({isActive})=>isActive ? active:undefined}
+                    aria-current="page" to="/">হোম</NavLink>
                   </li>
                   
                   <li className="nav-item dropdown">
-                    <a
+                    <NavLink
                       className={`${styles.navLink} nav-link dropdown-toggle`}
-                      href="#"
+                      style={({isActive})=>isActive ? active:undefined}
+                      to="#"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       পণ্য
-                    </a>
+                    </NavLink>
                     <ul className="dropdown-menu dropdown-menu-dark">
-                      <li><a className="dropdown-item" href="#">মধু</a></li>
-                      <li><a className="dropdown-item" href="#">শরিষার তৈল</a></li>
+                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="#">মধু</NavLink></li>
+                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="#">শরিষার তৈল</NavLink></li>
                       <li>
-                        <a className="dropdown-item" href="#">ঘি</a>
+                        <NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="#">ঘি</NavLink>
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className={`${styles.navLink} nav-link`} href="#">পরিচয়</a>
+                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="../Pages/About">পরিচয়</NavLink>
                   </li>
                   <li className="nav-item">
-                    <a className={`${styles.navLink} nav-link`} href="#">সেবা সমূহ</a>
+                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="#">সেবা সমূহ</NavLink>
                   </li>
                   <li className="nav-item">
-                    <a className={`${styles.navLink} nav-link`} href="#">যোগাযোগ করুন</a>
+                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="#">যোগাযোগ করুন</NavLink>
                   </li>
                 </ul>
               </div>

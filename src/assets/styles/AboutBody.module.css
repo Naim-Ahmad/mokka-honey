@@ -1,52 +1,36 @@
-.iconLeft {
-  position: relative;
-}
-
-.iconRight {
-  display: none;
-}
-
-.navLink {
-  color: white;
-  font-weight: bolder;
-  font-size: large;
-  padding: 0px 1rem !important;
-}
-
-.navLink:hover {
-  color: #eeba1f;
-}
-
 @media screen and (min-width: 0) and (max-width: 576px) {
-  .iconLeft {
-    left: 10%;
-  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .iconLeft {
-    left: 15%;
+  .box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image {
+    width: 47%;
+  }
+  .text {
+    width: 47%;
+    position: relative;
+  }
+  .text p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 2vw;
   }
 }
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .iconLeft {
-    display: none;
-  }
-  .iconRight {
-    display: block;
-  }
 }
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 }
-
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
-
-/* XX-Large devices (larger desktops, 1400px and up) */
+/*XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 }
