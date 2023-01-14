@@ -1,6 +1,8 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Signika:wght@400;500;600;700&display=swap');
 @import url('https://fonts.maateen.me/siyam-rupali/font.css');
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
 
 /* ===================================
 common css
@@ -16,7 +18,9 @@ html {
 }
 
 p {
-  font-family: 'Poppins', 'SiyamRupali', sans-serif;
+  font-family: 'kalpurush', 'Poppins', 'Noto Naskh Arabic', 'kalpurush',
+    sans-serif;
+  font-size: large;
 }
 
 h1,
@@ -25,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'SiyamRupali', 'Signika', 'kalpurush', sans-serif;
+  font-family: 'kalpurush', 'kalpurush', 'Noto Naskh Arabic', sans-serif;
 }
 
 img {
@@ -47,7 +51,7 @@ img {
   display: inline-block;
   margin-top: 1rem;
   font-weight: bold;
-  font-family: 'SiyamRupali';
+  font-family: 'kalpurush';
   border: 2px solid #eeba1f;
 }
 .add-card-btn {
@@ -69,7 +73,7 @@ img {
 
 a {
   text-decoration: none;
-  font-family: 'SiyamRupali';
+  font-family: 'kalpurush', sans-serif;
 }
 
 i {
@@ -85,6 +89,9 @@ i:hover {
   text-align: center;
 }
 
+.my-card {
+  flex: 1 1 auto;
+}
 /* ============================================
 Responsive Design
 =============================================*/
