@@ -11,8 +11,9 @@ export default function ContactSection(){
 
           <div className="row">
             <Address />
-
-            <ContactForm />
+            <div className="col-md-6">
+              <ContactForm />
+            </div>
           </div>
      
     </Section>

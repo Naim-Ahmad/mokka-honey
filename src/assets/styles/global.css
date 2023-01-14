@@ -149,7 +149,17 @@ Responsive Design
     width: 45%;
   }
 }
-
+.aboutAll:nth-child(even) {
+  /* flex-direction: row-reverse; */
+  background-color: rgb(52, 58, 64);
+  color: white;
+}
+.aboutAll:nth-child(even).box {
+  flex-direction: row-reverse;
+}
+.aboutAll:nth-child(2n) .AboutBody_box__J954j {
+  flex-direction: row-reverse;
+}
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .header-text {

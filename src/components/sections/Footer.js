@@ -6,7 +6,7 @@ export default function Footer(){
         <footer>
         <div className="container">
           <div className="row text-left">
-            <div className="col-lg-3 py-2">
+            <div className="col-lg-3 py-2 text-lg-start">
               <a href="">
                 <i className="fa-brands common-color fa-2x pe-2 fa-facebook"></i>
               </a>

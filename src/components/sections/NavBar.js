@@ -62,6 +62,7 @@ export default function Nav(){
                       পণ্য
                     </NavLink>
                     <ul className="dropdown-menu dropdown-menu-dark">
+                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/AllProducts">পণ্য সমূহ</NavLink></li>
                       <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/Honey">মধু</NavLink></li>
                       <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/Oil">শরিষার তৈল</NavLink></li>
                       <li>
@@ -72,11 +73,9 @@ export default function Nav(){
                   <li className="nav-item">
                     <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="../Pages/About">পরিচয়</NavLink>
                   </li>
+                 
                   <li className="nav-item">
-                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="../Pages/Services">সেবা সমূহ</NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="../Pages/Contact">যোগাযোগ করুন</NavLink>
+                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="../Pages/ContactUs">যোগাযোগ করুন</NavLink>
                   </li>
                 </ul>
               </div>

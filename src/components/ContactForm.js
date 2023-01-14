@@ -2,7 +2,6 @@ import React from "react";
 
 export default function ContactForm(){
     return (
-        <div className="col-md-6">
               <form action="index.php" method="post" className="form">
                 <div className="mb-3">
                 <input type="text" name="name" className="form-control" placeholder="আপনার নাম?" required />
@@ -28,6 +27,5 @@ export default function ContactForm(){
                 </div>
                 <a href="" className="my-btn">মেসেজ প্রেরণ করুন</a>
               </form>
-            </div>
     )
 }
