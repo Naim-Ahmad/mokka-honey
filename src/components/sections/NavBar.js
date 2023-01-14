@@ -54,7 +54,7 @@ export default function Nav(){
                     <NavLink
                       className={`${styles.navLink} nav-link dropdown-toggle`}
                       style={({isActive})=>isActive ? active:undefined}
-                      to="#"
+                      to="../Pages/Products/AllProducts"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -62,10 +62,10 @@ export default function Nav(){
                       পণ্য
                     </NavLink>
                     <ul className="dropdown-menu dropdown-menu-dark">
-                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="#">মধু</NavLink></li>
-                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="#">শরিষার তৈল</NavLink></li>
+                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/Honey">মধু</NavLink></li>
+                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/Oil">শরিষার তৈল</NavLink></li>
                       <li>
-                        <NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="#">ঘি</NavLink>
+                        <NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/ghee">ঘি</NavLink>
                       </li>
                     </ul>
                   </li>
@@ -73,10 +73,10 @@ export default function Nav(){
                     <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="../Pages/About">পরিচয়</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="#">সেবা সমূহ</NavLink>
+                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="../Pages/Services">সেবা সমূহ</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="#">যোগাযোগ করুন</NavLink>
+                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="../Pages/Contact">যোগাযোগ করুন</NavLink>
                   </li>
                 </ul>
               </div>
