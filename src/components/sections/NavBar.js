@@ -63,7 +63,7 @@ export default function Nav(){
                     </NavLink>
                     <ul className="dropdown-menu dropdown-menu-dark">
                       <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/AllProducts">পণ্য সমূহ</NavLink></li>
-                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/Honey">মধু</NavLink></li>
+                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/Honeys">মধু</NavLink></li>
                       <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/Oil">শরিষার তৈল</NavLink></li>
                       <li>
                         <NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/ghee">ঘি</NavLink>
