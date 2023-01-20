@@ -13,9 +13,13 @@ common css
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  overflow: scroll !important;
 }
+
+/* html {
+  scroll-behavior: smooth;
+} */
 
 p {
   font-family: 'kalpurush', 'Poppins', 'Noto Naskh Arabic', 'kalpurush',

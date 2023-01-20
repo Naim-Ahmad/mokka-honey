@@ -71,7 +71,7 @@ export default function Nav(){
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="../Pages/About">পরিচয়</NavLink>
+                    <NavLink className={`${styles.navLink} nav-link`} style={({isActive})=>isActive ? active:undefined} to="/Pages/About">পরিচয়</NavLink>
                   </li>
                  
                   <li className="nav-item">
