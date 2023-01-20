@@ -5,11 +5,13 @@ export default function ProductItem({image, alt, title, description, prevAmount,
     return (
         
           <div className={`card ${style.card}`}>
-            <img src={image} className="card-img-top" alt={alt}/>
 
+            <div className="position-relative">
+            <img src={image} className="card-img-top" alt={alt}/>
             <div className={style.cardImg}>
               <i className="fa-solid fa-cart-shopping fa-1x"></i>
               <i className="fa-solid fa-magnifying-glass"></i>
+            </div>
             </div>
 
             <div className="card-body">
