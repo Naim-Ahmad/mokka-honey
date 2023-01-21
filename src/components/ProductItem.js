@@ -21,8 +21,8 @@ export default function ProductItem({image, alt, title, description, prevAmount,
 
               <p><span><s>&#2547; {prevAmount} </s> </span> 
               &#8287;
-              <span className="text-warning fw-bold fs-3"> &#2547; {curAmount} </span></p>
-              <a href="#" className="my-btn add-card-btn">পণ্যটি ব্যগে রাখুন</a>
+              <span className="text-warning fw-bold fs-3">&#2547;{curAmount} </span></p>
+              <a href="#" className="my-btn add-card-btn">পণ্যটি ব্যাগে রাখুন</a>
             </div>
           </div>
         

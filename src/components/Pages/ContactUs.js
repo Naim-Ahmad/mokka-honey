@@ -35,14 +35,14 @@ export default function ContactUs() {
                 <div className={`text-center`}>
                     <i className="fa-brands fa-facebook-messenger mb-3 text-warning fa-3x"></i>
                     <h2 className='mb-3 fw-bolder'>ইনবক্সে নক করুন</h2>
-                    <p>সাতপুর, কালীগঞ্জ, সাতক্ষিরা, ঢাকা - বাংলাদেশ।</p>
+                    <p>সাদপুর, কালীগঞ্জ, সাতক্ষিরা, ঢাকা - বাংলাদেশ।</p>
                 </div>
             </Card>
             <Card>
                 <div className={`text-center`}>
                     <i className="fa-brands fa-whatsapp mb-3 text-warning fa-3x"></i>
                     <h2 className='mb-3 fw-bolder'>ভিডিও কল করুন</h2>
-                    <p>০১----------</p>
+                    <p>০১৯৭৫-১৫৫০৯৯</p>
                 </div>
             </Card>
         </div>

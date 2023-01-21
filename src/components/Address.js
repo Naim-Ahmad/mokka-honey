@@ -7,7 +7,7 @@ export default function Address(){
                 <i className="fa fa-home common-color fa-2x me-3 mt-2"></i>
                 <span>
                   <h3>হেড অফিসঃ</h3>
-                  <p>সাতপুর, কালীগঞ্জ, সাতক্ষিরা।</p>
+                  <p>সাদপুর, কালীগঞ্জ, সাতক্ষিরা।</p>
                 </span>
               </div>
               <div className="d-flex">
