@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Routes } from 'react-router-dom';
-import About from './Pages/About';
+import About from './Pages/About/About';
 import ContactUs from "./Pages/ContactUs";
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/Home";
 import AllProducts from "./Pages/Products/AllProducts";
 import Honeys from "./Pages/Products/Honeys";
 

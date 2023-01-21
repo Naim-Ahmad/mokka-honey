@@ -1,5 +1,5 @@
 import React from "react";
-import style from '../assets/styles/review.module.css';
+import style from '../../styles/review.module.css';
 
 export default function ReviewCard({image, alt, reviewText, name, person}){
     return (

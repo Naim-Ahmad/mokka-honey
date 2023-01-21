@@ -14,7 +14,8 @@ common css
 }
 
 body {
-  overflow: scroll !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
 }
 
 /* html {

@@ -1,5 +1,5 @@
 import React from "react"
-import style from '../assets/styles/productItem.module.css'
+import style from '../styles/productItem.module.css'
 
 export default function ProductItem({image, alt, title, description, prevAmount, curAmount}){
     return (

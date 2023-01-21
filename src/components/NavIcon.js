@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import ShoppingCard from "../ShoppingCard"
+import ShoppingCard from "./ShoppingCard"
 
 export default function NavIcon(props){
 

@@ -1,11 +1,11 @@
 import React from 'react'
-import headerImage from '../../assets/images/bannar-min.jpg'
-import Card from '../Card'
-import ContactForm from '../ContactForm'
-import HeaderAll from '../HeaderAll'
-import Footer from '../sections/Footer'
-import Nav from '../sections/NavBar'
-import Section from '../sections/Section'
+import headerImage from '../assets/bannar-min.jpg'
+import Card from '../components/Card'
+import ContactForm from '../components/ContactForm'
+import HeaderAll from '../components/HeaderAll'
+import Section from '../components/Section'
+import Footer from '../Layouts/Footer'
+import Nav from '../Layouts/NavBar'
 
 export default function ContactUs() {
   return (

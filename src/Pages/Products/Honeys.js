@@ -1,9 +1,9 @@
 import React from 'react'
-import imageHeader from '../../../assets/images/slider3-bg.webp'
-import HeaderAll from '../../HeaderAll'
-import ProductItem from '../../ProductItem'
-import NavBar from '../../sections/NavBar'
-import Section from '../../sections/Section'
+import imageHeader from '../../assets/slider3-bg.webp'
+import HeaderAll from '../../components/HeaderAll'
+import ProductItem from '../../components/ProductItem'
+import Section from '../../components/Section'
+import NavBar from '../../Layouts/NavBar'
 
 export default function Honeys() {
   return (

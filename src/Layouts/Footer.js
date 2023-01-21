@@ -1,5 +1,5 @@
 import React from "react";
-import paymentMethod from '../../assets/images/paymentsnew-bd.png';
+import paymentMethod from '../assets/paymentsnew-bd.png';
 
 export default function Footer(){
     return (

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sundorbonImg from '../../assets/images/pbg-pb110417.jpg';
-import image from '../../assets/images/sundorbon.jpg';
-import style from '../../assets/styles/about.module.css';
-import Section from "./Section";
+import sundorbonImg from '../../assets/pbg-pb110417.jpg';
+import image from '../../assets/sundorbon.jpg';
+import Section from "../../components/Section";
+import style from '../../styles/about.module.css';
 
 export default function AboutSection(){
     return (

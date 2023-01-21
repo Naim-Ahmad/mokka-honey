@@ -1,11 +1,11 @@
 import React from 'react'
-import headerImage from '../../assets/images/bannar-min.jpg'
-import HeaderAll from '../HeaderAll'
-import Footer from '../sections/Footer'
-import Nav from '../sections/NavBar'
-import Section from '../sections/Section'
+import headerImage from '../../assets/bannar-min.jpg'
+import HeaderAll from '../../components/HeaderAll'
+import Section from '../../components/Section'
+import Footer from '../../Layouts/Footer'
+import Nav from '../../Layouts/NavBar'
 // import Contact from '../ContactForm'
-import AboutBody from '../AboutBody'
+import AboutBody from './AboutBody'
 // import imageUrl from '../../assets/images/bennar'
 export default function About() {
   return (

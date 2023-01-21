@@ -1,8 +1,8 @@
 import React from "react";
-import image from '../../assets/images/naim-ahmad-picture-min.png';
-import style from '../../assets/styles/review.module.css';
-import ReviewCard from "../ReviewCard";
-import Section from "./Section";
+import image from '../../assets/naim-ahmad-picture-min.png';
+import Section from "../../components/Section";
+import style from '../../styles/review.module.css';
+import ReviewCard from "./ReviewCard";
 
 const text = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt dicta provident nihil! Officia perspiciatis enim adipisci, repudiandae totam quidem? Delectus iure quam corporis odit temporibus possimus eligendi porro architecto eum.'
 

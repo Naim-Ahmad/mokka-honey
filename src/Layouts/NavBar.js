@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import styles from '../../assets/styles/nav.module.css';
-import NavIcon from "../NavIcon";
+import NavIcon from "../components/NavIcon";
+import styles from '../styles/nav.module.css';
 
 export default function Nav(){
   let active = {

@@ -1,7 +1,7 @@
 import React from "react";
-import Address from "../Address";
-import ContactForm from "../ContactForm";
-import Section from "./Section";
+import ContactForm from "../../components/ContactForm";
+import Section from "../../components/Section";
+import Address from "./Address";
 
 export default function ContactSection(){
     return(

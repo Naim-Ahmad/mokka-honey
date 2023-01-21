@@ -1,12 +1,12 @@
 import React from "react";
-// import kaloJirarModhu from '../../assets/images/কালোজিরার-মধু.png';
-import kaloJiraoil from '../../assets/images/কালোজিরার-তেল.png';
-import ghe from '../../assets/images/ঘি.jpg';
-import lichuFulerModhu from '../../assets/images/লিচু-ফুলের-মধু.png';
-import sundorBonerModhu from '../../assets/images/সুন্দরবনের-মধু.png';
-import style from '../../assets/styles/productItem.module.css';
-import ProductItem from "../ProductItem";
-import Section from "./Section";
+// import kaloJirarModhu from '../../assets/কালোজিরার-মধু.png';
+import kaloJiraoil from '../../assets/কালোজিরার-তেল.png';
+import ghe from '../../assets/ঘি.jpg';
+import lichuFulerModhu from '../../assets/লিচু-ফুলের-মধু.png';
+import sundorBonerModhu from '../../assets/সুন্দরবনের-মধু.png';
+import ProductItem from "../../components/ProductItem";
+import Section from "../../components/Section";
+import style from '../../styles/productItem.module.css';
 
 export default function ProductSection(){
     return (
