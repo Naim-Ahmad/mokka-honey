@@ -1,8 +1,8 @@
 import React from "react";
-import kaloJiraoil from '../../assets/কালোজিরার-তেল.png';
-import Card from "../../components/Card";
-import Carousel from "../../components/Carousel";
-import Section from "../../components/Section";
+import kaloJiraoil from '../../Assets/কালোজিরার-তেল.png';
+import Card from "../../Components/Card";
+import Carousel from "../../Components/Carousel";
+import Section from "../../Components/Section";
 
 export default function LatestProduct(){
     return(

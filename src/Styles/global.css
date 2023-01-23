@@ -18,9 +18,9 @@ body {
   overflow-x: hidden !important;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
-} */
+}
 
 p {
   font-family: 'kalpurush', 'Poppins', 'Noto Naskh Arabic', 'kalpurush',
@@ -96,6 +96,10 @@ i:hover {
 
 .my-card {
   flex: 1 1 auto;
+}
+
+footer {
+  padding: 2rem !important;
 }
 /* ============================================
 Responsive Design

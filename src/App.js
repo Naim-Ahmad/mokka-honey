@@ -5,18 +5,19 @@ import ContactUs from "./Pages/ContactUs";
 import Home from "./Pages/Home/Home";
 import AllProducts from "./Pages/Products/AllProducts";
 import Honeys from "./Pages/Products/Honeys";
+import ScrollToTop from "./Utils/ScrollToTop";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/Pages/About" element={<About/>}/>
-        <Route path="/Pages/ContactUs" element={<ContactUs/>}/>
-        <Route path="/Pages/Products/AllProducts" element={<AllProducts/>}/>
-        <Route path="/Pages/Products/Honeys" element={<Honeys/>}/>
-
+        <Route path="/About" element={<About/>}/>
+        <Route path="/ContactUs" element={<ContactUs/>}/>
+        <Route path="/Products/AllProducts" element={<AllProducts/>}/>
+        <Route path="/Products/Honeys" element={<Honeys/>}/>
       </Routes>
+      <ScrollToTop/>
     </>
   );
 }

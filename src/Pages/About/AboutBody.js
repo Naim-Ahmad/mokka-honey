@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/AboutBody.module.css'
+import styles from '../../Styles/AboutBody.module.css'
 
 export default function AboutBody(props) {
   return (

@@ -21,7 +21,7 @@ export default function Address(){
                 <i className="fa fa-envelope-open-text common-color fa-2x me-3 mt-2"></i>
                 <span>
                   <h3>জিমেইলঃ</h3>
-                  <p>alamin@gmail.com</p>
+                  <p>mokkahoney@gmail.com</p>
                 </span>
               </div>
         </div>

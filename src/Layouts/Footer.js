@@ -1,5 +1,5 @@
 import React from "react";
-import paymentMethod from '../assets/paymentsnew-bd.png';
+import paymentMethod from '../Assets/paymentsnew-bd.png';
 
 export default function Footer(){
     return (
@@ -20,7 +20,7 @@ export default function Footer(){
                 <i className="fa-brands common-color fa-2x pe-2 fa-instagram"></i>
               </a>
             </div>
-            <div className="col-lg-5 py-2">
+            <div className="col-lg-5 py-2 mt-2">
               <p className="text-secondary">Copyright &copy; All rights reserved. | Developed By <a className="fw-bold" href="https://naim-ahmad.netlify.app/">Naim Ahmad</a></p>
             </div>
             <div className="col-lg-4 py-2">
