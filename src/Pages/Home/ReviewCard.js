@@ -3,7 +3,7 @@ import style from '../../Styles/review.module.css';
 
 export default function ReviewCard({image, alt, reviewText, name, title}){
     return (
-        <div className={`${style.reviewCard} card text-center`}>
+        <div className={`${style.card} card text-center`}>
             <div className="card-body">
               <div>
                 <i className="fa-solid fa-quote-left text-warning fa-3x mb-3"></i>
@@ -21,6 +21,6 @@ export default function ReviewCard({image, alt, reviewText, name, title}){
                 </cite>
               </blockquote>
             </div>
-          </div>
+        </div>
     )
 }

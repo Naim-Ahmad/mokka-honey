@@ -2,20 +2,66 @@
   background: linear-gradient(rgba(238, 186, 31, 0.8), rgba(238, 186, 31, 0.8)),
     url(../Assets/sundorbon.jpg) no-repeat center/cover;
 }
+/* ===========================
+  product section style starts here
+  ==============================*/
 
-.reviewCard {
-  width: 18rem;
+.card {
+  position: relative;
+  transition: 0.3s;
+  width: 80% !important;
+  max-width: 320px !important;
 }
 
+.productItem {
+  flex-wrap: wrap;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+}
+.cardText {
+  font-size: 18px;
+}
+
+.myBtn {
+  display: block;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: larger;
+  /* color: #eeba1f; */
+}
+
+@media screen and (min-width: 0) and (max-width: 576px) {
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .card {
+    width: 44% !important;
+    max-width: 18rem !important;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card {
+    width: 18rem !important;
+    max-width: 40% !important;
+  }
+}
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .review {
-    width: 80%;
-    margin: auto;
+  .card {
+    width: 43% !important;
   }
 }
-
-@media (min-width: 1400px) {
-  .review {
-    width: 100%;
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .card {
+    width: 23% !important;
+    max-width: 18rem !important;
   }
+}
+/*XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
 }
