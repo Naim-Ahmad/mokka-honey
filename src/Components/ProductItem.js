@@ -16,7 +16,7 @@ export default function ProductItem({image, alt, title, description, prevAmount,
 
             <div className="card-body">
               <h4 className="card-title fw-bold my-3">{title}</h4>
-              <p className="card-text">
+              <p className={style.cardText}>
                {description}</p>
 
               <p><span><s>&#2547; {prevAmount} </s> </span> 

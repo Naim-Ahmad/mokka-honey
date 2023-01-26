@@ -1,28 +1,26 @@
 import React from "react";
-// import kaloJirarModhu from '../../Assets/কালোজিরার-মধু.png';
-import kaloJiraoil from '../../Assets/কালোজিরার-তেল.png';
-import ghe from '../../Assets/ঘি.jpg';
-import lichuFulerModhu from '../../Assets/লিচু-ফুলের-মধু.png';
-import sundorBonerModhu from '../../Assets/সুন্দরবনের-মধু.png';
-import ProductItem from "../../Components/ProductItem";
+
 import Section from "../../Components/Section";
 import style from '../../Styles/productItem.module.css';
+
+import { NavLink } from "react-router-dom";
+import ProductItem from "../../Components/ProductItem";
+import productList from "../../Data/productList";
 
 export default function ProductSection(){
     return (
         <Section classSec={''} container={''}>
             <h1 className="text-center mb-5 common-color fw-bolder">আমাদের পণ্য সামগ্রী</h1>
             <div className={`${style.productItem} d-flex gap-4 justify-content-center`}>
-                {/* <ProductItem image={kaloJirarModhu} alt={'কালো জিরার মধু'} title={'কালো জিরার মধু'} description={"আমাদের নিজস্ব কর্মী দ্বারা সংগৃহীত খাঁটি কালোজিরার মধু"} prevAmount={'700'} curAmount="500"/> */}
-                <ProductItem image={sundorBonerModhu} alt={'সুন্দরবনের মধু'} title={'সুন্দরবনের মধু'} description={"আমাদের নিজস্ব কর্মী দ্বারা সংগৃহীত সুন্দরবনের মধু"} prevAmount={'1500'} curAmount={"1200"}/>
-
-                <ProductItem image={ghe} alt={'ঘি'} title={'গাওয়া ঘি'} description={"আমাদের নিজস্ব কর্মী দ্বারা বানানো সুস্বাদু ঘি"} prevAmount={'1600'} curAmount={"1500"}/>
-                <ProductItem image={kaloJiraoil} alt={'কালোজিরার তেল'} title={'কালোজিরার তৈল'} description={"আমাদের ফ্যাক্টরিতে বানানো কালোজিরার তেল"} prevAmount={'170'} curAmount={"150"}/>
-
-                <ProductItem image={lichuFulerModhu} alt={'লিচু ফুলের মধু'} title={'লিচু ফুলের মধু'} description={"আমাদের নিজস্ব কর্মী দ্বারা সংগৃহীত খাঁটি লিচু ফুলের মধু"} prevAmount={'700'} curAmount="600"/>
-                
-                {/* <ProductItem image={boroiFulerModhu} alt={'কালো জিরা'} title={'বরই ফুলের মধু'} description={"আমাদের নিজস্ব কর্মী দ্বারা সংগৃহীত খাঁটি বরই ফুলের মধু"} prevAmount={'700'} curAmount="500"/> */}
+               {productList.map(product=>{
+                if(product.id > 4) {
+                    return
+                }else{
+                    return <ProductItem key={product.id} {...product}/>
+                }
+               })}
             </div>
+            <NavLink to="/Products/AllProducts" className={style.myBtn}>সমস্ত পণ্য দেখুন</NavLink>
         </Section>
     )
 }

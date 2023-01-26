@@ -3,10 +3,10 @@ import paymentMethod from '../Assets/paymentsnew-bd.png';
 
 export default function Footer(){
     return (
-        <footer>
+        <footer className="bg-dark">
         <div className="container">
           <div className="row text-left">
-            <div className="col-lg-3 py-2 text-lg-start">
+            <div className="col-lg-3 pt-4 text-lg-start">
               <a href="">
                 <i className="fa-brands common-color fa-2x pe-2 fa-facebook"></i>
               </a>
@@ -21,10 +21,10 @@ export default function Footer(){
               </a>
             </div>
             <div className="col-lg-5 py-2 mt-2">
-              <p className="text-secondary">Copyright &copy; All rights reserved. | Developed By <a className="fw-bold" href="https://naim-ahmad.netlify.app/">Naim Ahmad</a></p>
+              <p className="text-white">Copyright &copy; All rights reserved. | Developed By <a className="fw-bold" href="https://naim-ahmad.netlify.app/">Naim Ahmad</a></p>
             </div>
             <div className="col-lg-4 py-2">
-              <span className="fw-bolder">We Accept</span>
+              <span className="fw-bolder text-white">We Accept</span>
               <img className="w-75 ms-2" src={paymentMethod} alt="Payment Method"/>
             </div>
           </div>

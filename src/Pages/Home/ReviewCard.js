@@ -1,7 +1,7 @@
 import React from "react";
 import style from '../../Styles/review.module.css';
 
-export default function ReviewCard({image, alt, reviewText, name, person}){
+export default function ReviewCard({image, alt, reviewText, name, title}){
     return (
         <div className={`${style.reviewCard} card text-center`}>
             <div className="card-body">
@@ -15,9 +15,9 @@ export default function ReviewCard({image, alt, reviewText, name, person}){
                 <img src={image} className="rounded-circle" alt={alt}/>
               </div>
               <blockquote className="pt-5">
-                {name}
+                {name} <br/>
                 <cite>
-                  {person}
+                  {title}
                 </cite>
               </blockquote>
             </div>

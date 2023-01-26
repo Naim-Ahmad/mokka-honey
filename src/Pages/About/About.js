@@ -2,15 +2,11 @@ import React from 'react'
 import headerImage from '../../Assets/bannar-min.jpg'
 import HeaderAll from '../../Components/HeaderAll'
 import Section from '../../Components/Section'
-import Footer from '../../Layouts/Footer'
-import Nav from '../../Layouts/NavBar'
-// import Contact from '../ContactForm'
 import AboutBody from './AboutBody'
-// import imageUrl from '../../assets/images/bennar'
+
 export default function About() {
   return (
     <>
-        <Nav/>
        <HeaderAll imageUrl={headerImage}>
           আমাদের পরিচয়
         </HeaderAll>
@@ -40,7 +36,6 @@ export default function About() {
 সরিষা,পাহাড়ী সহ বিভিন্ন ধরনের মধু নিজস্ব খামারী দ্বারা সংগ্ৰহ করা হয়</p>
         </AboutBody>
        </Section>
-        <Footer/>
     </>
   )
 }
