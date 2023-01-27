@@ -1,7 +1,7 @@
 import React from 'react'
 import headerImage from '../../Assets/bannar-min.jpg'
 import HeaderAll from '../../Components/HeaderAll'
-import Section from '../../Components/Section'
+import AboutData from '../../Data/AboutData'
 import AboutBody from './AboutBody'
 
 export default function About() {
@@ -11,31 +11,13 @@ export default function About() {
           আমাদের পরিচয়
         </HeaderAll>
 
-       <Section classSec={'aboutAll'} container={'container'}>
-        <AboutBody image={headerImage}>
-          <p>আমাদের কাছে সুন্দরবনের  প্রাকৃতিক চাকের খাঁটি মধু, গ্ৰামের প্রাকৃতিক চাকের মধু এবং খামারের মধু,একচ খলিশা ও গরাণ ফুলের মধু ,এ ছাড়াও কালোজিরা, লিচু,বর‌ই,
-সরিষা,পাহাড়ী সহ বিভিন্ন ধরনের মধু নিজস্ব খামারী দ্বারা সংগ্ৰহ করা হয়</p>
-        </AboutBody>
-       </Section>
-       <Section classSec={'aboutAll'} container={'container'}>
-        <AboutBody image={headerImage}>
-          <p>আমাদের কাছে সুন্দরবনের  প্রাকৃতিক চাকের খাঁটি মধু, গ্ৰামের প্রাকৃতিক চাকের মধু এবং খামারের মধু,একচ খলিশা ও গরাণ ফুলের মধু ,এ ছাড়াও কালোজিরা, লিচু,বর‌ই,
-সরিষা,পাহাড়ী সহ বিভিন্ন ধরনের মধু নিজস্ব খামারী দ্বারা সংগ্ৰহ করা হয়</p>
-        </AboutBody>
-       </Section>
+       <div className='container'>
 
-       <Section classSec={'aboutAll'} container={'container'}>
-        <AboutBody image={headerImage}>
-          <p>আমাদের কাছে সুন্দরবনের  প্রাকৃতিক চাকের খাঁটি মধু, গ্ৰামের প্রাকৃতিক চাকের মধু এবং খামারের মধু,একচ খলিশা ও গরাণ ফুলের মধু ,এ ছাড়াও কালোজিরা, লিচু,বর‌ই,
-সরিষা,পাহাড়ী সহ বিভিন্ন ধরনের মধু নিজস্ব খামারী দ্বারা সংগ্ৰহ করা হয়</p>
-        </AboutBody>
-       </Section>
-       <Section classSec={'aboutAll'} container={'container'}>
-        <AboutBody image={headerImage}>
-          <p>আমাদের কাছে সুন্দরবনের  প্রাকৃতিক চাকের খাঁটি মধু, গ্ৰামের প্রাকৃতিক চাকের মধু এবং খামারের মধু,একচ খলিশা ও গরাণ ফুলের মধু ,এ ছাড়াও কালোজিরা, লিচু,বর‌ই,
-সরিষা,পাহাড়ী সহ বিভিন্ন ধরনের মধু নিজস্ব খামারী দ্বারা সংগ্ৰহ করা হয়</p>
-        </AboutBody>
-       </Section>
+       {AboutData.map(about=>{
+        return <AboutBody key={about.id} {...about}/>
+       })}
+       
+       </div>
     </>
   )
 }

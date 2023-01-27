@@ -6,12 +6,12 @@ export default function AboutBody(props) {
     
         <div className={styles.box}>
             <div className={`mb-3 ${styles.image}`}>
-                <img src={props.image} />
+                <img src={props.image} className={`img-fluid rounded`}/>
             </div>
+            
             <div className={`mb-3 ${styles.text}`}>
-                {props.children}
+                <p>{props.text}</p>
             </div>
         </div>
-    
   )
 }

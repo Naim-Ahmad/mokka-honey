@@ -11,7 +11,7 @@ export default function Nav(){
         <>
          <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
           <div className="container">
-            <NavLink className="navbar-brand" to="/"><i className="fa-solid fa-kaaba"></i> মক্কা হানি</NavLink>
+            <NavLink className="navbar-brand" to="/"><i className="fa-solid fa-kaaba"></i> মক্কা হানি এন্ড ফুড</NavLink>
 
             <NavIcon style={styles.iconLeft}/>
 

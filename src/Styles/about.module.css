@@ -1,7 +1,10 @@
 /*============================
 About section style starts here
 ============================*/
-
+.box:nth-child(even) {
+  flex-direction: row-reverse;
+  background-color: black;
+}
 .aboutText h2 {
   font-size: 3em;
   color: #eeba1f;

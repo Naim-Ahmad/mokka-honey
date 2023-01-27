@@ -23,7 +23,7 @@ export default function Footer(){
             <div className="col-lg-5 py-2 mt-2">
               <p className="text-white">Copyright &copy; All rights reserved. | Developed By <a className="fw-bold" href="https://naim-ahmad.netlify.app/">Naim Ahmad</a></p>
             </div>
-            <div className="col-lg-4 py-2">
+            <div className="col-lg-4 pt-lg-4">
               <span className="fw-bolder text-white">We Accept</span>
               <img className="w-75 ms-2" src={paymentMethod} alt="Payment Method"/>
             </div>

@@ -4,7 +4,6 @@ import Card from '../Components/Card'
 import ContactForm from '../Components/ContactForm'
 import HeaderAll from '../Components/HeaderAll'
 import Section from '../Components/Section'
-import Footer from '../Layouts/Footer'
 
 export default function ContactUs() {
   return (
@@ -19,7 +18,7 @@ export default function ContactUs() {
                     <div className={`text-center`}>
                         <i className="fa-solid fa-handshake mb-3 text-warning fa-3x"></i>
                         <h2 className='mb-3 fw-bolder'>সাক্ষাত করুন</h2>
-                        <p>সাতপুর, কালীগঞ্জ, সাতক্ষিরা, ঢাকা - বাংলাদেশ।</p>
+                        <p>সাতপুর, কালীগঞ্জ, সাতক্ষিরা, খুলনা - বাংলাদেশ।</p>
                     </div>
                 </Card>
                 <Card>
@@ -33,7 +32,7 @@ export default function ContactUs() {
                     <div className={`text-center`}>
                         <i className="fa-brands fa-facebook-messenger mb-3 text-warning fa-3x"></i>
                         <h2 className='mb-3 fw-bolder'>ইনবক্সে নক করুন</h2>
-                        <p>সাদপুর, কালীগঞ্জ, সাতক্ষিরা, ঢাকা - বাংলাদেশ।</p>
+                        <p>সাদপুর, কালীগঞ্জ, সাতক্ষিরা, খুলনা - বাংলাদেশ।</p>
                     </div>
                 </Card>
                 <Card>

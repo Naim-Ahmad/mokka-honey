@@ -1,14 +1,25 @@
-@media screen and (min-width: 0) and (max-width: 576px) {
+.wrapper:nth-child(even) {
+  background-color: #212529;
+  color: white;
 }
-/* Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) {
   .box {
     display: flex;
     justify-content: space-between;
+    padding: 3rem 12%;
+  }
+
+  .box:nth-child(even) {
+    flex-direction: row-reverse;
   }
 
   .image {
     width: 57%;
+  }
+  .image img {
+    height: auto;
+    height: 490px;
   }
   .text {
     width: 40%;

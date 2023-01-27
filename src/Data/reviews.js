@@ -1,3 +1,4 @@
+import avatar from '../Assets/avatar-svgrepo-com.svg'
 import NaimsPic from '../Assets/naim-ahmad-picture-min.png'
 
 const reviews = [
@@ -11,11 +12,11 @@ const reviews = [
     },
     {
         id: 2,
-        name: 'Naim Ahmad',
-        title: 'Frontend Developer',
-        image: NaimsPic,
+        name: 'Ashaduzzaman ibn kashem',
+        title: 'Former partner of Mokka Honey And Food',
+        image: avatar,
         alt: 'Naim Ahmad',
-        reviewText: 'আপনার মধু আমার কাছে খাটি মনে হয়েছে টেস্ট অনেক সুন্দর ছিল।'
+        reviewText: 'আপনার মধু আমার কাছে নোনতা নোনতা লেগেল মনে হয়েছে কেউ পেশাব করে দিয়েছে।'
     },
     {
         id: 3,
