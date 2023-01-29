@@ -94,6 +94,9 @@ i:hover {
   text-align: center;
 }
 
+.pe-6 {
+  padding-right: 4rem !important;
+}
 /* .my-card {
   flex: 1 1 auto;
 } */

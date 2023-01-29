@@ -44,7 +44,7 @@ export default function Nav(){
               </div>
 
               <div className="offcanvas-body">
-                <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <ul className="navbar-nav justify-content-center flex-grow-1 pe-6">
                   <li className="nav-item">
                     <NavLink className={`${styles.navLink}`} style={({isActive})=>isActive ? active:undefined}
                     aria-current="page" to="/">হোম</NavLink>
@@ -62,9 +62,9 @@ export default function Nav(){
                       পণ্য
                     </NavLink>
                     <ul className="dropdown-menu dropdown-menu-dark">
-                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="/Products/AllProducts">পণ্য সমূহ</NavLink></li>
+                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="/Products/AllProducts">সমস্ত পণ্য</NavLink></li>
                       <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="/Products/Honeys">মধু</NavLink></li>
-                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="../Pages/Products/Oil">শরিষার তৈল</NavLink></li>
+                      <li><NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="/Products/Oil">তেল সামগ্রী</NavLink></li>
                       <li>
                         <NavLink className="dropdown-item" style={({isActive})=>isActive ? active:undefined} to="/Products/ghee">ঘি</NavLink>
                       </li>

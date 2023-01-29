@@ -9,16 +9,16 @@ export default function Honeys() {
   return (
     <>
         <HeaderAll imageUrl={imageHeader}>
-            মধু সমূহ
+            ঘি 
         </HeaderAll>
         <Section classSec={'sec-p'} container="container">
             <div className='mb-5'>
-              <h1 className='fw-bold text-center text-warning mb-3'>মধুর গুনাগুণ </h1>
-              <p className='fs-4 text-center'>আপনার শরীরকে সুস্থ ও পুষ্টিকর রাখতে আমাদের কাছে পাচ্ছেন সুন্দরবনের প্রাকৃতিক চাকের খাঁটি মধু  যেটা আপনাকে হাঁচি, কাশি, ও করোনা জাতীয় মহামারীর সংক্রমণ থেকে নিরাপদ রাখতে সহায়তা করবে,</p>
+              <h1 className='fw-bold text-center text-warning mb-3'>ঘি এর উপকারিতা </h1>
+              <p className='fs-4 text-center'>একটি অত্যন্ত পুষ্টিকর খাবার ঘি। এতে রয়েছে বিভিন্ন ভিটামিন ও নান পুষ্টি উপাদান। ওজন বাড়াতে সাহায্য করে। ক্ষতিকর কোলেস্টেরল কমায়। এছাড়া আরো উপকারিতা আছে ঘি এর মধ্যে। </p>
             </div>
             <div className="d-flex flex-wrap gap-3 justify-content-center">
               {productList.map(product=>{
-                if(product.type == 'Honey'){
+                if(product.type == 'Ghee'){
                   return <ProductItem key={product.id} {...product}/>
                 }
               })}

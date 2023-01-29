@@ -19,7 +19,7 @@
   }
   .image img {
     height: auto;
-    height: 490px;
+    /* height: 490px; */
   }
   .text {
     width: 40%;

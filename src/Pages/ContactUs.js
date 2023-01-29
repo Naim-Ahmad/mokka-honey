@@ -18,7 +18,7 @@ export default function ContactUs() {
                     <div className={`text-center`}>
                         <i className="fa-solid fa-handshake mb-3 text-warning fa-3x"></i>
                         <h2 className='mb-3 fw-bolder'>সাক্ষাত করুন</h2>
-                        <p>সাতপুর, কালীগঞ্জ, সাতক্ষিরা, খুলনা - বাংলাদেশ।</p>
+                        <p>সাতপুর, কালীগঞ্জ, সাতক্ষীরা, খুলনা - বাংলাদেশ।</p>
                     </div>
                 </Card>
                 <Card>

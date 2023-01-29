@@ -7,7 +7,9 @@ import About from './Pages/About/About';
 import ContactUs from "./Pages/ContactUs";
 import Home from "./Pages/Home/Home";
 import AllProducts from "./Pages/Products/AllProducts";
+import Ghee from './Pages/Products/Ghee';
 import Honeys from "./Pages/Products/Honeys";
+import Oil from "./Pages/Products/Oil";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs/>}/>
           <Route path="/Products/AllProducts" element={<AllProducts/>}/>
           <Route path="/Products/Honeys" element={<Honeys/>}/>
+          <Route path="/Products/Oil" element={<Oil/>}/>
+          <Route path="/Products/ghee" element={<Ghee/>}/>
         </Routes>
         <ScrollToTop/>
 

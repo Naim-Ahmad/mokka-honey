@@ -1,10 +1,13 @@
+import oliveOilImg from '../Assets/oliveoil-720.png'
 import BlackCuminOilImg from '../Assets/কালোজিরার-তেল.png'
 import GheeImg from '../Assets/ঘি.jpg'
+import boroifulerhoneyimg from '../Assets/বরই-ফুলের-মধু.png'
 import LycheeFlowerHoneyImg from '../Assets/লিচু-ফুলের-মধু.png'
 import SundarbansHoneyImg from '../Assets/সুন্দরবনের-মধু.png'
 
 
 const productList = [
+   
     {
         id: 1,
         type: 'Honey',
@@ -44,6 +47,26 @@ const productList = [
         description: 'আমাদের নিজস্ব কর্মী দ্বারা সংগৃহীত সুন্দরবনের মধু',
         prevAmount: '700',
         curAmount: '600'
+    },
+    {
+        id: 5,
+        type: 'Honey',
+        image: boroifulerhoneyimg,
+        alt: 'বরই ফুলের মধু (Plum blossom honey)',
+        title: 'লিচু ফুলের মধু',
+        description: 'আমাদের নিজস্ব কর্মী দ্বারা সংগৃহীত বরই মধু',
+        prevAmount: '',
+        curAmount: ''
+    },
+    {
+        id: 5,
+        type: 'oil',
+        image: oliveOilImg,
+        alt: 'অলিভওয়েল (olive oil)',
+        title: 'অলিভওয়েল',
+        description: 'আপনার ত্বককে সতেজ ও সুন্দর রাখতে সরাসরি স্পেন থেকে আগত অলিভ‌ওয়েল।',
+        prevAmount: '',
+        curAmount: ''
     }
   
 ]

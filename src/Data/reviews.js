@@ -15,8 +15,8 @@ const reviews = [
         name: 'Ashaduzzaman ibn kashem',
         title: 'Former partner of Mokka Honey And Food',
         image: avatar,
-        alt: 'Naim Ahmad',
-        reviewText: 'আপনার মধু আমার কাছে নোনতা নোনতা লেগেল মনে হয়েছে কেউ পেশাব করে দিয়েছে।'
+        alt: '',
+        reviewText: ''
     },
     {
         id: 3,
