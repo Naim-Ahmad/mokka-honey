@@ -9,9 +9,17 @@
   max-width: 320px !important;
 }
 
+.cardImage {
+  height: 277px;
+}
+
+.cardImage img {
+  height: 100%;
+}
+
 .cardImg {
   background: rgba(0, 0, 0, 0.6);
-  height: 100%;
+  height: 277px;
   width: 100%;
   position: absolute;
   top: 0%;

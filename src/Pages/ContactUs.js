@@ -25,7 +25,7 @@ export default function ContactUs() {
                     <div className={`text-center`}>
                         <i className="fa-solid fa-phone-volume mb-3 text-warning fa-3x"></i>
                         <h2 className='mb-3 fw-bolder'>ফোন করুন</h2>
-                        <p>০১৯৭৫-১৫৫০৯৯</p>
+                        <p>01300-626559</p>
                     </div>
                 </Card>
                 <Card>

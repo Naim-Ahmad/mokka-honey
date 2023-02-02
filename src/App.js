@@ -17,15 +17,15 @@ function App() {
       
         <NavBar />
         
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/About" element={<About/>}/>
-          <Route path="/ContactUs" element={<ContactUs/>}/>
-          <Route path="/Products/AllProducts" element={<AllProducts/>}/>
-          <Route path="/Products/Honeys" element={<Honeys/>}/>
-          <Route path="/Products/Oil" element={<Oil/>}/>
-          <Route path="/Products/ghee" element={<Ghee/>}/>
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/About" element={<About/>}/>
+            <Route path="/ContactUs" element={<ContactUs/>}/>
+            <Route path="/Products/AllProducts" element={<AllProducts/>}/>
+            <Route path="/Products/Honeys" element={<Honeys/>}/>
+            <Route path="/Products/Oil" element={<Oil/>}/>
+            <Route path="/Products/ghee" element={<Ghee/>}/>
+          </Routes>
         <ScrollToTop/>
 
         <Footer/>

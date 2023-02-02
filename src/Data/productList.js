@@ -1,13 +1,24 @@
 import oliveOilImg from '../Assets/oliveoil-720.png'
 import BlackCuminOilImg from '../Assets/কালোজিরার-তেল.png'
+import kalojiraHoneyImg from '../Assets/কালোজিরার-মধু.png'
 import GheeImg from '../Assets/ঘি.jpg'
 import boroifulerhoneyimg from '../Assets/বরই-ফুলের-মধু.png'
+import modhumoyImg from '../Assets/মধুময়.png'
 import LycheeFlowerHoneyImg from '../Assets/লিচু-ফুলের-মধু.png'
 import SundarbansHoneyImg from '../Assets/সুন্দরবনের-মধু.png'
-import kalojiraHoneyImg from '../Assets/কালোজিরার-মধু.png'
 
 
 const productList = [
+    {
+        id: 0,
+        type: 'Honey',
+        image: modhumoyImg,
+        alt: 'মধুময়',
+        title: 'মধুময় - ৫০০ গ্রাম',
+        description: 'মধুময় বাদাম  যেটা শরীরে ক্যলশিয়াম তৈরি করে',
+        prevAmount: '1300',
+        curAmount: '1200'
+    },
    
     {
         id: 1,
