@@ -1,4 +1,4 @@
-import oliveOilImg from '../Assets/oliveoil-720.png'
+import oliveOilImg from '../Assets/oliveOil.jpg'
 import BlackCuminOilImg from '../Assets/কালোজিরার-তেল.png'
 import kalojiraHoneyImg from '../Assets/কালোজিরার-মধু.png'
 import GheeImg from '../Assets/ঘি.jpg'

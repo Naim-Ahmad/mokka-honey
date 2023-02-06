@@ -1,7 +1,12 @@
 /* ===========================
   product section style starts here
   ==============================*/
-
+.productImage {
+  height: 289px;
+}
+.productImage > img {
+  height: 100% !important;
+}
 .card {
   position: relative;
   transition: 0.3s;
@@ -19,7 +24,7 @@
 
 .cardImg {
   background: rgba(0, 0, 0, 0.6);
-  height: 277px;
+  height: 100%;
   width: 100%;
   position: absolute;
   top: 0%;
