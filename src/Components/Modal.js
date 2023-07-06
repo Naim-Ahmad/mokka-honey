@@ -3,17 +3,17 @@ const checkPackedItems = JSON.parse(localStorage.getItem('packed'));
 const packedItems = checkPackedItems ? checkPackedItems : [];
 
 export default function Modal() {
-  const [quantity, setQuantity] = useState(0)
+  const [quantity, setQuantity] = useState({})
   const handleClick = () => {
     localStorage.clear()
     window.location.reload()
   }
 
-  const handleChange = (event) => {
-    setQuantity(event.target.value)
-    console.log(event.target.value)
-    console.log(quantity)
-  }
+  // const handleChange = (event) => {
+  //   setQuantity(event.target.value)
+  //   console.log(event.target.value)
+  //   console.log(quantity)
+  // }
 
   return (
     <>
@@ -55,14 +55,14 @@ export default function Modal() {
                         <h3 className="m-0">মূল্য</h3>
                         <p>{item.curAmount}</p>
                       </div>
-                      <div className="text-center">
+                      {/* <div className="text-center">
                         <h3 className="m-0">পরিমাণ</h3>
                         <div>
                           <button>-</button>
                           <input type="number" name={item.title} value={ quantity } onChange={handleChange} />
                           <button>+</button>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
                 );
