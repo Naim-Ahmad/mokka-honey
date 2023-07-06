@@ -13,7 +13,7 @@ export default function Nav(){
           <div className="container">
             <NavLink className="navbar-brand" to="/"><i className="fa-solid fa-kaaba"></i> মক্কা হানি এন্ড ফুড</NavLink>
 
-            <NavIcon style={styles.iconLeft}/>
+            <NavIcon style={styles.iconLeft} />
 
             <button
               className="navbar-toggler"
@@ -80,7 +80,7 @@ export default function Nav(){
                 </ul>
               </div>
             </div>
-            <NavIcon style={styles.iconRight}/>
+            <NavIcon style={styles.iconRight} />
             
           </div>
         </nav>

@@ -1,7 +1,7 @@
 import React from "react"
 import style from '../Styles/productItem.module.css'
 
-export default function ProductItem({image, alt, title, description, prevAmount, curAmount}){
+export default function ProductItem({ image, alt, title, description, prevAmount, curAmount, id, onClickHandler }) {
     return (
         
           <div className={`card ${style.card}`}>
@@ -24,7 +24,7 @@ export default function ProductItem({image, alt, title, description, prevAmount,
               <p><span><s>&#2547; {prevAmount} </s> </span> 
               &#8287;
               <span className="text-warning fw-bold fs-3">&#2547;{curAmount} </span></p>
-              <a href="#" className="my-btn add-card-btn">পণ্যটি ব্যাগে রাখুন</a>
+              <button className="my-btn add-card-btn" id={id} onClick={onClickHandler}>পণ্যটি ব্যাগে রাখুন</button>
             </div>
           </div>
         

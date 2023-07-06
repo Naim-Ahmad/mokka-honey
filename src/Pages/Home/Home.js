@@ -11,7 +11,7 @@ export default function Home(){
         <>
             <Header/>
             <AboutSection />
-            <ProductSection/>
+            <ProductSection />
             <LatestProduct />
             <ReviewSec />
             <ContactSection />

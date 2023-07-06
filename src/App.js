@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from 'react-router-dom';
+import Modal from "./Components/Modal";
 import ScrollToTop from "./Components/ScrollToTop";
 import Footer from "./Layouts/Footer";
 import NavBar from './Layouts/NavBar';
@@ -14,22 +15,19 @@ import Oil from "./Pages/Products/Oil";
 function App() {
   return (
     <>
-      
-        <NavBar />
-        
-          <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/About" element={<About/>}/>
-            <Route path="/ContactUs" element={<ContactUs/>}/>
-            <Route path="/Products/AllProducts" element={<AllProducts/>}/>
-            <Route path="/Products/Honeys" element={<Honeys/>}/>
-            <Route path="/Products/Oil" element={<Oil/>}/>
-            <Route path="/Products/ghee" element={<Ghee/>}/>
-          </Routes>
-        <ScrollToTop/>
-
-        <Footer/>
-    
+      <NavBar />
+      <Modal />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/Products/AllProducts" element={<AllProducts />} />
+        <Route path="/Products/Honeys" element={<Honeys />} />
+        <Route path="/Products/Oil" element={<Oil />} />
+        <Route path="/Products/ghee" element={<Ghee />} />
+      </Routes>
+      <ScrollToTop />
+      <Footer />
     </>
   );
 }

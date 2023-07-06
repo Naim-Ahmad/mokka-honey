@@ -79,6 +79,7 @@ img {
 a {
   text-decoration: none;
   font-family: 'kalpurush', sans-serif;
+  cursor: pointer;
 }
 
 i {
