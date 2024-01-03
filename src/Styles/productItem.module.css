@@ -46,7 +46,7 @@
   flex-wrap: wrap;
 }
 .cardImg i {
-  background-color: #eeba1f;
+  background-color: var(--primary-yellow);
   padding: 1rem;
   border-radius: 10px;
   display: block;
@@ -77,7 +77,7 @@
   text-align: center;
   margin-top: 1.5rem;
   font-size: larger;
-  /* color: #eeba1f; */
+  /* color: var(--primary-yellow); */
 }
 
 @media screen and (min-width: 0) and (max-width: 576px) {

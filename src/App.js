@@ -1,16 +1,18 @@
 import React from "react";
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
 import Modal from "./Components/Modal";
 import ScrollToTop from "./Components/ScrollToTop";
 import Footer from "./Layouts/Footer";
-import NavBar from './Layouts/NavBar';
-import About from './Pages/About/About';
+import NavBar from "./Layouts/NavBar";
+import About from "./Pages/About/About";
 import ContactUs from "./Pages/ContactUs";
 import Home from "./Pages/Home/Home";
+import Login from "./Pages/Login/Login";
 import AllProducts from "./Pages/Products/AllProducts";
-import Ghee from './Pages/Products/Ghee';
+import Ghee from "./Pages/Products/Ghee";
 import Honeys from "./Pages/Products/Honeys";
 import Oil from "./Pages/Products/Oil";
+import Register from "./Pages/Register/Register";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/Products/Honeys" element={<Honeys />} />
         <Route path="/Products/Oil" element={<Oil />} />
         <Route path="/Products/ghee" element={<Ghee />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <ScrollToTop />
       <Footer />

@@ -5,7 +5,7 @@ import styles from '../Styles/nav.module.css';
 
 export default function Nav(){
   let active = {
-    color: '#eeba1f',
+    color: 'var(--primary-yellow)',
   }
     return (
         <>

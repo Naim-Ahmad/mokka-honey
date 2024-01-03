@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ShoppingCard from "./ShoppingCard";
 
 const checkPackedItems = JSON.parse(localStorage.getItem('packed'));
@@ -9,9 +10,9 @@ export default function NavIcon(props){
  
     return (
       <div className={props.style}>
-        <a href="#user" className="text-decoration-none">
+        <Link to="/login" className="text-decoration-none">
           <i className="fa-solid fa-user fa-1x pe-3"></i>
-        </a>
+        </Link>
         <span
           // onClick={handleClick}
           data-bs-toggle="modal"

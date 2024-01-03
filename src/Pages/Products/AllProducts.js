@@ -13,7 +13,7 @@ export default function AllProducts() {
     </HeaderAll>
 
     <Section classSec={'sec-p'} container="container">
-      <div className='d-flex flex-wrap gap-3 justify-content-center'>
+      <div className='d-flex flex-wrap gap-3 justify-content-between'>
         {productList.map(product=>{
           return <ProductItem key={product.id} {...product}/>
         })}

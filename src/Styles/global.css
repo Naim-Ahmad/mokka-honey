@@ -1,12 +1,16 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Signika:wght@400;500;600;700&display=swap');
-@import url('https://fonts.maateen.me/siyam-rupali/font.css');
-@import url('https://fonts.maateen.me/kalpurush/font.css');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Signika:wght@400;500;600;700&display=swap");
+@import url("https://fonts.maateen.me/siyam-rupali/font.css");
+@import url("https://fonts.maateen.me/kalpurush/font.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap");
 
 /* ===================================
 common css
 =====================================*/
+:root {
+  --primary-yellow: #eeba1f;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -23,7 +27,7 @@ html {
 }
 
 p {
-  font-family: 'kalpurush', 'Poppins', 'Noto Naskh Arabic', 'kalpurush',
+  font-family: "kalpurush", "Poppins", "Noto Naskh Arabic", "kalpurush",
     sans-serif;
   font-size: large;
 }
@@ -34,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'kalpurush', 'kalpurush', 'Noto Naskh Arabic', sans-serif;
+  font-family: "kalpurush", "kalpurush", "Noto Naskh Arabic", sans-serif;
 }
 
 img {
@@ -47,7 +51,7 @@ img {
 }
 
 .my-btn {
-  background-color: #eeba1f;
+  background-color: var(--primary-yellow);
   text-decoration: none;
   color: black;
   padding: 8px 2.5rem;
@@ -56,8 +60,8 @@ img {
   display: inline-block;
   margin-top: 1rem;
   font-weight: bold;
-  font-family: 'kalpurush';
-  border: 2px solid #eeba1f;
+  font-family: "kalpurush";
+  border: 2px solid var(--primary-yellow);
 }
 .add-card-btn {
   border-radius: 4px;
@@ -70,7 +74,7 @@ img {
   color: black;
 }
 .common-color {
-  color: #eeba1f;
+  color: var(--primary-yellow);
 }
 .sec-p {
   padding: 4rem 0rem;
@@ -78,7 +82,7 @@ img {
 
 a {
   text-decoration: none;
-  font-family: 'kalpurush', sans-serif;
+  font-family: "kalpurush", sans-serif;
   cursor: pointer;
 }
 
@@ -88,7 +92,7 @@ i {
 }
 
 i:hover {
-  color: #eeba1f !important;
+  color: var(--primary-yellow) !important;
 }
 
 .row.text-left {

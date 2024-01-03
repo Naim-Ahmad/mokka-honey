@@ -26,7 +26,7 @@ export default function ProductSection() {
     return (
         <Section classSec={''} container={''}>
             <h1 className="text-center mb-5 common-color fw-bolder">আমাদের পণ্য সামগ্রী</h1>
-            <div className={`${style.productItem} d-flex gap-4 justify-content-center`}>
+            <div className={`${style.productItem} d-flex gap-4 justify-content-between`}>
                {productList.map(product=>{
                 if(product.id > 3) {
                     return

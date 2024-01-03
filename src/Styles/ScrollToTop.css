@@ -8,7 +8,7 @@
   z-index: 20;
 }
 .icon-style {
-  fill: #eeba1f;
+  fill: var(--primary-yellow);
   border-radius: 50%;
   height: 50px;
   width: 50px;

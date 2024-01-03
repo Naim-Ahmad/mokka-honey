@@ -30,7 +30,7 @@
   text-align: center;
   margin-top: 1.5rem;
   font-size: larger;
-  /* color: #eeba1f; */
+  /* color: var(--primary-yellow); */
 }
 
 @media screen and (min-width: 0) and (max-width: 576px) {
